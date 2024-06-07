@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*background: pink;*/
+}
+
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	background: gray;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px;
+}
+
+header{
+	background: white;
+}
+
+header nav{
+	width: 100%;
+
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;/*eliminimar subrayado*/
+	display: inline-block;
+	padding: 15px 20px;
+	color: #B12F14;
+}
+
+header nav ul li a:hover{
+	background:#000000;
+	color: white;
+}
+
+.main{
+	width: 680px;
+	background: white;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .post{
+	padding: 40px;
+}
+
+.main .post h2{
+	color: #FF0000;
+	margin-bottom: 20px;
+}
+
+.main .post p{
+	line-height: 27px;
+	margin-bottom: 15px;
+	color: #783F3F;
+}
+
+aside{
+	width: 280px;
+	padding: 20px;
+	background: #000000;
+	color: white;
+	overflow: hidden;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget .titulo{
+	color: white;
+	border-bottom: 1px solid white;
+	margin-bottom: 15px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom: 1px solid white;
+	padding: 15px 0px;
+}
+
+aside .widget ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+aside .widget ul li a:hover{
+	color: #000000;
+	background: white;
+}
+
+aside .widget p{
+	line-height: 27px;
+	text-align: justify;
+}
